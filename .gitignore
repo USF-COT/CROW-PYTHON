@@ -72,5 +72,9 @@ nosetests.xml
 # Sphinx documentation
 docs/_build/
 
+# Server run files
 .env
 *.pid
+
+# VIM swap files
+*.swp

@@ -1,3 +1,6 @@
+/*global angular */
+/*jslint node: true  */
+
 'use strict';
 
 /* Directives */

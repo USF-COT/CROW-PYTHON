@@ -11,15 +11,23 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="${request.static_path('crow:static/app/css/bootstrap-map-hacks.css')}">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.1/css/font-awesome.min.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
     
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular-route.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular-resource.js"></script>
 
     <script src="${request.static_path('crow:static/app/js/app.js')}"></script>
     <script src="${request.static_path('crow:static/app/js/controllers.js')}"></script>
     <script src="${request.static_path('crow:static/app/js/directives.js')}"></script>
     <script src="${request.static_path('crow:static/app/js/filters.js')}"></script>
     <script src="${request.static_path('crow:static/app/js/services.js')}"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAwIkzwBhmjMAQB0MaR5gS9Kjn2lCplXc&sensor=false"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+    <script src="${request.static_path('crow:static/app/js/vendor/angular-google-maps.min.js')}"></script>
 </head>
 <body>
     <!--[if lt IE 7]>
